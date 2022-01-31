@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "75076174872",
+    "firebase_url": "https://healthlet-2021-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "healthlet-2021",
+    "storage_bucket": "healthlet-2021.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:75076174872:android:6fa7fc8cf1b223e3edef6d",
+        "android_client_info": {
+          "package_name": "com.example.firstproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "75076174872-4ffur1p9ecgd5bad9l7c0be8oiak2aqf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.firstproject",
+            "certificate_hash": "297bb005b2c330a96e054e0a724d7f54f0ebe95e"
+          }
+        },
+        {
+          "client_id": "75076174872-3o51pmej23got949ek2h2v58jqdheij6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBNr4TLxK9LQRTxrDK1M4rdB33IJjsWLZg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "75076174872-3o51pmej23got949ek2h2v58jqdheij6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

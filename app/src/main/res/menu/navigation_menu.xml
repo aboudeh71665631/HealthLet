@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/Home"
+        android:title="Home"
+        android:icon="@drawable/ic_home"
+        app:cnb_iconColor="?attr/colorPrimary"
+        app:cnb_backgroundColor="#40ED1B24" />
+    <item
+        android:id="@+id/Appointments"
+        android:title="Appointments"
+        android:icon="@drawable/ic_appointment"
+        app:cnb_iconColor="?attr/colorPrimary"
+        app:cnb_backgroundColor="#40ED1B24"/>
+
+    <item
+        android:id="@+id/Shop"
+        android:title="Shop"
+        android:icon="@drawable/ic_shop"
+        app:cnb_iconColor="?attr/colorPrimary"
+        app:cnb_backgroundColor="#40ED1B24"/>
+
+
+</menu>

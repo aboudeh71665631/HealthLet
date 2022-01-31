@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/colorSecondary"
+    android:elevation="-1dp"
+    tools:context=".Navigation.HomeFragment">
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/colorSecondary"
+            android:fitsSystemWindows="true"
+            android:theme="@style/Theme.FirstProject">
+
+            <com.google.android.material.appbar.CollapsingToolbarLayout
+                android:id="@+id/collapsing_toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fitsSystemWindows="true"
+                app:contentScrim="?attr/colorSecondary"
+                app:layout_scrollFlags="scroll|snap|exitUntilCollapsed"
+                app:titleEnabled="false">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <RelativeLayout
+                        android:id="@+id/profile_layout"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="20dp"
+                        app:layout_collapseMode="parallax">
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:id="@+id/doctor_profile_image"
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"
+                            android:src="@drawable/ic_profile"
+                            app:civ_border_color="?attr/colorPrimary"
+                            app:civ_border_width="2dp" />
+
+                        <com.google.android.material.floatingactionbutton.FloatingActionButton
+                            android:id="@+id/dfab"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignRight="@id/doctor_profile_image"
+                            android:layout_alignBottom="@id/doctor_profile_image"
+                            android:src="@drawable/ic_baseline_upgrade_24"
+                            app:backgroundTint="@color/logo_red"
+                            app:fabSize="mini"
+                            tools:ignore="SpeakableTextPresentCheck" />
+                    </RelativeLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/profile_layout"
+                        android:layout_centerVertical="true"
+                        android:layout_marginHorizontal="10dp"
+                        android:layout_marginTop="20dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="10dp"
+                            android:gravity="center"
+                            android:text="Welcome Home,"
+                            android:textColor="?attr/colorPrimary"
+                            android:textSize="20sp"
+                            app:layout_collapseMode="pin" />
+
+                        <TextView
+                            android:id="@+id/dName_tv"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="10dp"
+                            android:fontFamily="@font/muli"
+                            android:gravity="center"
+                            android:text="Dr. Elie Chalouhi"
+                            android:textColor="@color/logo_red"
+                            android:textSize="30sp"
+                            android:textStyle="italic"
+                            app:layout_collapseMode="pin" />
+
+                    </LinearLayout>
+                </RelativeLayout>
+
+                <androidx.appcompat.widget.Toolbar
+                    android:id="@+id/toolbar"
+                    android:layout_width="match_parent"
+                    android:layout_height="?attr/actionBarSize"
+                    app:layout_collapseMode="pin" />
+            </com.google.android.material.appbar.CollapsingToolbarLayout>
+
+        </com.google.android.material.appbar.AppBarLayout>
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/home_layout_bg"
+            android:padding="30dp"
+            android:paddingBottom="0dp"
+            app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingBottom="30dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <RelativeLayout
+                        android:id="@+id/add_patient_layout"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/home_nav_icon_bg"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:foreground="?selectableItemBackground"
+                        android:gravity="center">
+
+                        <ImageView
+                            android:id="@+id/ic_add_patient"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_centerInParent="true"
+                            android:src="@drawable/ic_outline_person_add_24"
+                            app:tint="@color/logo_red" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/ic_add_patient"
+                            android:layout_centerHorizontal="true"
+                            android:text="Add Patient"
+                            android:textColor="?attr/colorPrimary"
+                            android:textSize="23sp" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/viewPatients"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/home_nav_icon_bg"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:foreground="?selectableItemBackground"
+                        android:gravity="center">
+
+                        <ImageView
+                            android:id="@+id/ic_view_patient"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_centerInParent="true"
+                            android:src="@drawable/ic_baseline_person_outline_24"
+                            app:tint="@color/logo_red" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/ic_view_patient"
+                            android:layout_centerHorizontal="true"
+                            android:text="View Patients"
+                            android:textColor="?attr/colorPrimary"
+                            android:textSize="23sp" />
+                    </RelativeLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <RelativeLayout
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/home_nav_icon_bg"
+                        android:gravity="center">
+
+                        <TextView
+                            android:id="@+id/nop"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_centerInParent="true"
+                            android:gravity="center"
+                            android:text="11"
+                            android:textColor="?attr/colorPrimary"
+                            android:textSize="40sp"
+                            android:textStyle="bold|italic" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/nop"
+                            android:layout_centerHorizontal="true"
+                            android:text="Total Patients"
+                            android:textColor="@color/logo_red"
+                            android:textSize="23sp"
+                            android:textStyle="italic" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/home_nav_icon_bg"
+                        android:gravity="center">
+
+                        <TextView
+                            android:id="@+id/noaps"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_centerInParent="true"
+                            android:gravity="center"
+                            android:text="3"
+                            android:textColor="?attr/colorPrimary"
+                            android:textSize="40sp"
+                            android:textStyle="bold|italic" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/noaps"
+                            android:layout_centerHorizontal="true"
+                            android:text="Appointments"
+                            android:textColor="@color/logo_red"
+                            android:textSize="23sp"
+                            android:textStyle="italic" />
+                    </RelativeLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <RelativeLayout
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/home_nav_icon_bg"
+                        android:gravity="center">
+
+                        <TextView
+                            android:id="@+id/nolr"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_centerInParent="true"
+                            android:gravity="center"
+                            android:text="5"
+                            android:textColor="?attr/colorPrimary"
+                            android:textSize="40sp"
+                            android:textStyle="bold|italic" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/nolr"
+                            android:layout_centerHorizontal="true"
+                            android:text="Lab Results"
+                            android:textColor="@color/logo_red"
+                            android:textSize="23sp"
+                            android:textStyle="italic" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/home_nav_icon_bg"
+                        android:gravity="center">
+
+                        <TextView
+                            android:id="@+id/noapsr"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_centerInParent="true"
+                            android:gravity="center"
+                            android:text="6"
+                            android:textColor="?attr/colorPrimary"
+                            android:textSize="40sp"
+                            android:textStyle="bold|italic" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/noapsr"
+                            android:layout_centerHorizontal="true"
+                            android:gravity="center"
+                            android:text="Requests"
+                            android:textColor="@color/logo_red"
+                            android:textSize="23sp"
+                            android:textStyle="italic" />
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </androidx.core.widget.NestedScrollView>
+
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</FrameLayout>

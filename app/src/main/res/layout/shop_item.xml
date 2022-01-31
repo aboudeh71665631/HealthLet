@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/login_rounded_background"
+    android:orientation="vertical"
+    android:paddingVertical="5dp"
+    android:layout_marginTop="5dp">
+
+    <ImageView
+        android:id="@+id/iImage"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:id="@+id/iName"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:fontFamily="@font/muli_black"
+        android:text="Item Name"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/iDescription"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Item Description"
+        android:textSize="20sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/iPrice"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:fontFamily="@font/muli_black"
+        android:text="Item Price"
+        android:textSize="25sp"
+        android:textStyle="italic"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="10dp"
+        android:background="@drawable/rounded_red_bg"
+        android:text="Buy Now!" />
+
+
+</LinearLayout>

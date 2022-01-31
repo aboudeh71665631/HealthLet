@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".VerifyOTP"
+    android:background="?attr/colorSecondary">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/signup_back_button_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:onClick="close"
+            android:padding="10dp"
+            android:src="@drawable/ic_close"
+            android:transitionName="trans_back_button"
+            app:tint="?attr/colorPrimary" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CO\nDE"
+            android:textSize="100sp"
+            android:layout_marginTop="60dp"
+            android:textColor="?attr/colorPrimary"
+            android:fontFamily="@font/muli_black"
+            android:includeFontPadding="false"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Verification"
+            android:textAllCaps="true"
+            android:textSize="24sp"
+            android:textColor="?attr/colorPrimary"
+            android:fontFamily="@font/muli_black"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:includeFontPadding="false"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Enter one time password sent to:"
+            android:layout_marginTop="50dp"
+            android:textSize="16sp"
+            android:textColor="?attr/colorPrimary"
+            android:fontFamily="@font/muli"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:includeFontPadding="false"
+            />
+        <TextView
+            android:id="@+id/pNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:layout_marginTop="5dp"
+            android:textSize="16sp"
+            android:textStyle="italic"
+            android:textColor="?attr/colorPrimary"
+            android:fontFamily="@font/muli"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:includeFontPadding="false"
+            />
+
+        <com.chaos.view.PinView
+            android:id="@+id/pin_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            app:itemCount="6"
+            app:itemWidth="50dp"
+            app:itemHeight="50dp"
+            android:textColor="?attr/colorPrimary"
+            android:layout_marginTop="30dp"
+            app:lineColor="?attr/colorPrimary"
+            android:itemBackground="@drawable/login_rounded_background"
+            style="@style/PinWidget.PinView"
+            android:inputType="number"
+            android:cursorVisible="true"
+            app:cursorColor="?attr/colorPrimary"
+            app:hideLineWhenFilled="true"
+            app:itemRadius="5dp"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/verify_otp_btn"
+            android:transitionName="trans_layout"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:onClick="startVerificationProcess"
+            style="@style/Widget.MaterialComponents.Button"
+            android:layout_marginTop="30dp"
+            android:text="Verify"
+            android:backgroundTint="?attr/colorOnPrimary"
+            android:textColor="?attr/colorPrimary"/>
+    </LinearLayout>
+
+</ScrollView>

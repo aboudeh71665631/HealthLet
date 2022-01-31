@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Navigation.AppointmentsFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/muli_black"
+                android:text="Welcome,\nAbdelRahman Masri,"
+                android:textSize="30sp"
+                android:textColor="@color/logo_red"/>
+
+            <TextView
+                android:id="@+id/no_apps"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="You currently have no appointments!"
+                android:textSize="20sp"
+                android:fontFamily="@font/muli"
+                android:layout_marginTop="10dp"
+                android:visibility="gone"/>
+
+            <TextView
+                android:id="@+id/upcoming_apps"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Upcoming Appointments:"
+                android:textSize="20sp"
+                android:fontFamily="@font/muli"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:text="February 2, 2022"
+                android:textColor="?attr/colorPrimary"
+                android:textSize="20sp"
+                android:fontFamily="@font/muli_black"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:padding="10dp"
+                android:elevation="5dp"
+                android:orientation="vertical"
+                android:background="@drawable/home_nav_icon_bg">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Dr. Ben Dover"
+                    android:textSize="20sp"
+                    android:fontFamily="@font/muli_black"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tripoli, Nini Hospital Room 204B"
+                    android:textSize="20sp"
+                    android:fontFamily="@font/muli"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="02:20 PM"
+                    android:textSize="40sp"
+                    android:fontFamily="@font/muli"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="0dp"/>
+
+            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:text="July 5, 2022"
+                android:textColor="?attr/colorPrimary"
+                android:textSize="20sp"
+                android:fontFamily="@font/muli_black"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:padding="10dp"
+                android:elevation="5dp"
+                android:orientation="vertical"
+                android:background="@drawable/home_nav_icon_bg">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Dr. Jane Doe"
+                    android:textSize="20sp"
+                    android:fontFamily="@font/muli_black"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Koura, North Hospital Room 2A"
+                    android:textSize="20sp"
+                    android:fontFamily="@font/muli"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="10:00 AM"
+                    android:textSize="40sp"
+                    android:fontFamily="@font/muli"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="0dp"/>
+
+            </LinearLayout>
+        </LinearLayout>
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/book_appBtn"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            style="@style/Widget.MaterialComponents.Button"
+            android:layout_marginBottom="60dp"
+            android:text="Book Appointment"
+            android:backgroundTint="?attr/colorOnPrimary"
+            android:textColor="?attr/colorPrimary"/>
+
+
+    </LinearLayout>
+
+</FrameLayout>

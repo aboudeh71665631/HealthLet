@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Abed Masri/Downloads/Compressed/FirstProject/app/src/main/res/drawable-night/btn_stroke.xml" value="0.39125" />
+        <entry key="..\:/Users/Abed Masri/Downloads/Compressed/FirstProject/app/src/main/res/drawable-night/buttons_hollow.xml" value="0.246875" />
+        <entry key="..\:/Users/Abed Masri/Downloads/Compressed/FirstProject/app/src/main/res/drawable-night/gradient_background1.xml" value="0.2712820512820513" />
+        <entry key="..\:/Users/Abed Masri/Downloads/Compressed/FirstProject/app/src/main/res/drawable-night/gradient_background2.xml" value="0.2712820512820513" />
+        <entry key="..\:/Users/Abed Masri/Downloads/Compressed/FirstProject/app/src/main/res/drawable-night/gradient_background3.xml" value="0.2890625" />
+        <entry key="..\:/Users/Abed Masri/Downloads/Compressed/FirstProject/app/src/main/res/drawable-night/gradient_background4.xml" value="0.37" />
+        <entry key="..\:/Users/Abed Masri/Downloads/Compressed/FirstProject/app/src/main/res/drawable-night/home_layout_bg.xml" value="0.3425" />
+        <entry key="..\:/Users/Abed Masri/Downloads/Compressed/FirstProject/app/src/main/res/drawable-night/login_rounded_background.xml" value="0.37" />
+        <entry key="..\:/Users/Abed Masri/Downloads/Compressed/FirstProject/app/src/main/res/drawable-night/progress_bar.xml" value="0.3375" />
+        <entry key="..\:/Users/Abed Masri/Downloads/Compressed/FirstProject/app/src/main/res/drawable-night/solid_background.xml" value="0.2712820512820513" />
+        <entry key="..\:/Users/Abed Masri/Downloads/Compressed/FirstProject/app/src/main/res/drawable-notnight/gradient_background1.xml" value="0.2712820512820513" />
+        <entry key="..\:/Users/Abed Masri/Downloads/Compressed/FirstProject/app/src/main/res/drawable-notnight/gradient_background2.xml" value="0.2712820512820513" />
+        <entry key="..\:/Users/Abed Masri/Downloads/Compressed/FirstProject/app/src/main/res/drawable-notnight/solid_background.xml" value="0.2712820512820513" />
+        <entry key="..\:/Users/Abed Masri/Downloads/Compressed/FirstProject/app/src/main/res/drawable/btn_stroke.xml" value="0.246875" />
+        <entry key="..\:/Users/Abed Masri/Downloads/Compressed/FirstProject/app/src/main/res/drawable/buttons_hollow.xml" value="0.2712820512820513" />
+        <entry key="..\:/Users/Abed Masri/Downloads/Compressed/FirstProject/app/src/main/res/drawable/gradient_background3.xml" value="0.37" />
+        <entry key="..\:/Users/Abed Masri/Downloads/Compressed/FirstProject/app/src/main/res/drawable/gradient_background4.xml" value="0.37" />
+        <entry key="..\:/Users/Abed Masri/Downloads/Compressed/FirstProject/app/src/main/res/drawable/home_layout_bg.xml" value="0.3425" />
+        <entry key="..\:/Users/Abed Masri/Downloads/Compressed/FirstProject/app/src/main/res/drawable/home_nav_icon_bg.xml" value="0.3425" />
+        <entry key="..\:/Users/Abed Masri/Downloads/Compressed/FirstProject/app/src/main/res/drawable/ic_add_photo.xml" value="0.246875" />
+        <entry key="..\:/Users/Abed Masri/Downloads/Compressed/FirstProject/app/src/main/res/drawable/ic_appointment.xml" value="0.34" />
+        <entry key="..\:/Users/Abed Masri/Downloads/Compressed/FirstProject/app/src/main/res/drawable/ic_arrow_back.xml" value="0.22037037037037038" />
+        <entry key="..\:/Users/Abed Masri/Downloads/Compressed/FirstProject/app/src/main/res/drawable/ic_baseline_lock_24.xml" value="0.38875" />
+        <entry key="..\:/Users/Abed Masri/Downloads/Compressed/FirstProject/app/src/main/res/drawable/ic_baseline_menu_24.xml" value="0.3475" />
+        <entry key="..\:/Users/Abed Masri/Downloads/Compressed/FirstProject/app/src/main/res/drawable/ic_baseline_person_outline_24.xml" value="0.34" />
+        <entry key="..\:/Users/Abed Masri/Downloads/Compressed/FirstProject/app/src/main/res/drawable/ic_baseline_upgrade_24.xml" value="0.34" />
+        <entry key="..\:/Users/Abed Masri/Downloads/Compressed/FirstProject/app/src/main/res/drawable/ic_launcher_background.xml" value="0.38875" />
+        <entry key="..\:/Users/Abed Masri/Downloads/Compressed/FirstProject/app/src/main/res/drawable/ic_next.xml" value="0.2712820512820513" />
+        <entry key="..\:/Users/Abed Masri/Downloads/Compressed/FirstProject/app/src/main/res/drawable/ic_phone.xml" value="0.38875" />
+        <entry key="..\:/Users/Abed Masri/Downloads/Compressed/FirstProject/app/src/main/res/drawable/ic_username.xml" value="0.38875" />
+        <entry key="..\:/Users/Abed Masri/Downloads/Compressed/FirstProject/app/src/main/res/drawable/login_rounded_background.xml" value="0.37" />
+        <entry key="..\:/Users/Abed Masri/Downloads/Compressed/FirstProject/app/src/main/res/drawable/progress_bar.xml" value="0.3375" />
+        <entry key="..\:/Users/Abed Masri/Downloads/Compressed/FirstProject/app/src/main/res/drawable/rounded_red_bg.xml" value="0.37" />
+        <entry key="..\:/Users/Abed Masri/Downloads/Compressed/FirstProject/app/src/main/res/drawable/solid_background.xml" value="0.2712820512820513" />
+        <entry key="..\:/Users/Abed Masri/Downloads/Compressed/FirstProject/app/src/main/res/drawable/wave.xml" value="0.16458333333333333" />
+        <entry key="..\:/Users/Abed Masri/Downloads/Compressed/FirstProject/app/src/main/res/font/roboto_condensed_bold.xml" value="0.33375" />
+        <entry key="..\:/Users/Abed Masri/Downloads/Compressed/FirstProject/app/src/main/res/layout/activity_add_new_patient.xml" value="0.264" />
+        <entry key="..\:/Users/Abed Masri/Downloads/Compressed/FirstProject/app/src/main/res/layout/activity_book_appointment.xml" value="0.176" />
+        <entry key="..\:/Users/Abed Masri/Downloads/Compressed/FirstProject/app/src/main/res/layout/activity_doc_review_appointments.xml" value="0.2" />
+        <entry key="..\:/Users/Abed Masri/Downloads/Compressed/FirstProject/app/src/main/res/layout/activity_doctor_add_patient.xml" value="0.4" />
+        <entry key="..\:/Users/Abed Masri/Downloads/Compressed/FirstProject/app/src/main/res/layout/activity_doctor_edit_patient.xml" value="0.264" />
+        <entry key="..\:/Users/Abed Masri/Downloads/Compressed/FirstProject/app/src/main/res/layout/activity_doctor_main_navigation.xml" value="0.2" />
+        <entry key="..\:/Users/Abed Masri/Downloads/Compressed/FirstProject/app/src/main/res/layout/activity_forget_password.xml" value="0.264" />
+        <entry key="..\:/Users/Abed Masri/Downloads/Compressed/FirstProject/app/src/main/res/layout/activity_fpsuccess_message.xml" value="0.264" />
+        <entry key="..\:/Users/Abed Masri/Downloads/Compressed/FirstProject/app/src/main/res/layout/activity_fpsuccess_message2.xml" value="0.22265625" />
+        <entry key="..\:/Users/Abed Masri/Downloads/Compressed/FirstProject/app/src/main/res/layout/activity_login.xml" value="0.49135802469135803" />
+        <entry key="..\:/Users/Abed Masri/Downloads/Compressed/FirstProject/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/Abed Masri/Downloads/Compressed/FirstProject/app/src/main/res/layout/activity_main_navigation.xml" value="0.176" />
+        <entry key="..\:/Users/Abed Masri/Downloads/Compressed/FirstProject/app/src/main/res/layout/activity_make_selection.xml" value="0.264" />
+        <entry key="..\:/Users/Abed Masri/Downloads/Compressed/FirstProject/app/src/main/res/layout/activity_on_boarding.xml" value="0.264" />
+        <entry key="..\:/Users/Abed Masri/Downloads/Compressed/FirstProject/app/src/main/res/layout/activity_set_new_password.xml" value="0.264" />
+        <entry key="..\:/Users/Abed Masri/Downloads/Compressed/FirstProject/app/src/main/res/layout/activity_sign_up.xml" value="0.4" />
+        <entry key="..\:/Users/Abed Masri/Downloads/Compressed/FirstProject/app/src/main/res/layout/activity_sign_up0.xml" value="0.4" />
+        <entry key="..\:/Users/Abed Masri/Downloads/Compressed/FirstProject/app/src/main/res/layout/activity_sign_up1.xml" value="0.4" />
+        <entry key="..\:/Users/Abed Masri/Downloads/Compressed/FirstProject/app/src/main/res/layout/activity_sign_up2.xml" value="0.4" />
+        <entry key="..\:/Users/Abed Masri/Downloads/Compressed/FirstProject/app/src/main/res/layout/activity_sign_up2b_doctor.xml" value="0.264" />
+        <entry key="..\:/Users/Abed Masri/Downloads/Compressed/FirstProject/app/src/main/res/layout/activity_sign_up3.xml" value="0.2" />
+        <entry key="..\:/Users/Abed Masri/Downloads/Compressed/FirstProject/app/src/main/res/layout/activity_sign_up_1.xml" value="0.2" />
+        <entry key="..\:/Users/Abed Masri/Downloads/Compressed/FirstProject/app/src/main/res/layout/activity_splash.xml" value="0.264" />
+        <entry key="..\:/Users/Abed Masri/Downloads/Compressed/FirstProject/app/src/main/res/layout/activity_startup.xml" value="0.2" />
+        <entry key="..\:/Users/Abed Masri/Downloads/Compressed/FirstProject/app/src/main/res/layout/activity_verify_otp.xml" value="0.536" />
+        <entry key="..\:/Users/Abed Masri/Downloads/Compressed/FirstProject/app/src/main/res/layout/activity_view_patients.xml" value="0.2" />
+        <entry key="..\:/Users/Abed Masri/Downloads/Compressed/FirstProject/app/src/main/res/layout/add_alergy_record_dialog.xml" value="0.3890625" />
+        <entry key="..\:/Users/Abed Masri/Downloads/Compressed/FirstProject/app/src/main/res/layout/doctor_appointment_request.xml" value="0.152" />
+        <entry key="..\:/Users/Abed Masri/Downloads/Compressed/FirstProject/app/src/main/res/layout/doctor_list_item.xml" value="0.3890625" />
+        <entry key="..\:/Users/Abed Masri/Downloads/Compressed/FirstProject/app/src/main/res/layout/dropdown_specialization_item.xml" value="0.3890625" />
+        <entry key="..\:/Users/Abed Masri/Downloads/Compressed/FirstProject/app/src/main/res/layout/fargment_onboarding_3.xml" value="0.2553846153846154" />
+        <entry key="..\:/Users/Abed Masri/Downloads/Compressed/FirstProject/app/src/main/res/layout/fragment_appointments.xml" value="0.536" />
+        <entry key="..\:/Users/Abed Masri/Downloads/Compressed/FirstProject/app/src/main/res/layout/fragment_doctor_appointments.xml" value="0.152" />
+        <entry key="..\:/Users/Abed Masri/Downloads/Compressed/FirstProject/app/src/main/res/layout/fragment_doctor_home.xml" value="0.17777777777777778" />
+        <entry key="..\:/Users/Abed Masri/Downloads/Compressed/FirstProject/app/src/main/res/layout/fragment_doctor_shop.xml" value="0.3890625" />
+        <entry key="..\:/Users/Abed Masri/Downloads/Compressed/FirstProject/app/src/main/res/layout/fragment_first.xml" value="0.4" />
+        <entry key="..\:/Users/Abed Masri/Downloads/Compressed/FirstProject/app/src/main/res/layout/fragment_home.xml" value="0.176" />
+        <entry key="..\:/Users/Abed Masri/Downloads/Compressed/FirstProject/app/src/main/res/layout/fragment_maps.xml" value="0.3890625" />
+        <entry key="..\:/Users/Abed Masri/Downloads/Compressed/FirstProject/app/src/main/res/layout/fragment_onboarding_1.xml" value="0.176" />
+        <entry key="..\:/Users/Abed Masri/Downloads/Compressed/FirstProject/app/src/main/res/layout/fragment_onboarding_2.xml" value="0.264" />
+        <entry key="..\:/Users/Abed Masri/Downloads/Compressed/FirstProject/app/src/main/res/layout/fragment_onboarding_3.xml" value="0.146875" />
+        <entry key="..\:/Users/Abed Masri/Downloads/Compressed/FirstProject/app/src/main/res/layout/fragment_onboarding_4.xml" value="0.2" />
+        <entry key="..\:/Users/Abed Masri/Downloads/Compressed/FirstProject/app/src/main/res/layout/fragment_second.xml" value="0.22265625" />
+        <entry key="..\:/Users/Abed Masri/Downloads/Compressed/FirstProject/app/src/main/res/layout/fragment_shop.xml" value="0.2" />
+        <entry key="..\:/Users/Abed Masri/Downloads/Compressed/FirstProject/app/src/main/res/layout/medication_card_item.xml" value="0.536" />
+        <entry key="..\:/Users/Abed Masri/Downloads/Compressed/FirstProject/app/src/main/res/layout/medication_dialog.xml" value="0.4" />
+        <entry key="..\:/Users/Abed Masri/Downloads/Compressed/FirstProject/app/src/main/res/layout/shop_item.xml" value="0.2" />
+        <entry key="..\:/Users/Abed Masri/Downloads/Compressed/FirstProject/app/src/main/res/layout/slides_layout.xml" value="0.19375" />
+        <entry key="..\:/Users/Abed Masri/Downloads/Compressed/FirstProject/app/src/main/res/layout/text_cardview_item.xml" value="0.3890625" />
+        <entry key="..\:/Users/Abed Masri/Downloads/Compressed/FirstProject/app/src/main/res/layout/view_patient_item.xml" value="0.3890625" />
+        <entry key="..\:/Users/Abed Masri/Downloads/Compressed/FirstProject/app/src/main/res/menu/navigation_menu.xml" value="0.4" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

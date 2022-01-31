@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/SignUp_Layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_list"
+    android:transitionName="trans_layout"
+    tools:context=".SignUp_2">
+
+    <ImageView
+        android:id="@+id/signup_back_button_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:contentDescription="back button"
+        android:onClick="back_btn"
+        android:padding="10dp"
+        android:src="@drawable/ic_arrow_back"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/signup_text_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/muli_black"
+        android:text="Sign-Up"
+        android:textAllCaps="true"
+        android:textColor="?attr/colorPrimary"
+        android:textSize="40sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/signup_back_button_1" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/signup_rounded_background"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_marginHorizontal="10dp"
+        android:background="@drawable/login_rounded_background"
+        android:padding="15dp"
+        android:transitionName="transition_startup_login"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/signup_text_1"
+        app:layout_constraintVertical_bias=".3">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/TL_specialization"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Select Specialization"
+                app:boxCornerRadiusTopEnd="20dp"
+                app:boxCornerRadiusTopStart="20dp"
+                app:boxStrokeColor="?attr/colorPrimary"
+                app:boxStrokeWidthFocused="2dp">
+
+                <AutoCompleteTextView
+                    android:id="@+id/autoComplete_txt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:focusable="false"
+                    android:inputType="none" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Please Enter Your Available Location(s)"
+                android:textColor="?attr/colorPrimary"
+                android:textSize="16sp" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/TL_location"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Locations"
+                app:boxStrokeColor="?attr/colorPrimary"
+                app:boxStrokeWidthFocused="2dp">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textCapWords" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <TextView
+                android:id="@+id/loc_subtext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="*For multiple locations, separate by a semicolon ';'"
+                android:textSize="12sp" />
+
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/temp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/next_button_1"
+                    style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="40dp"
+                    android:layout_marginHorizontal="10dp"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#00000000"
+                    android:fontFamily="@font/muli_black"
+                    android:onClick="callNextSignupScreen"
+                    android:text="Next"
+                    android:textColor="?attr/colorPrimary"
+                    android:textSize="18sp"
+                    android:transitionName="trans_next_btn"
+                    app:cornerRadius="5dp"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:rippleColor="@color/white"
+                    app:strokeColor="?attr/colorPrimary"
+                    app:strokeWidth="2dp" />
+
+                <RelativeLayout
+                    android:id="@+id/signup_to_login_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:clickable="true"
+                    android:transitionName="trans_signup_to_login"
+                    app:layout_constraintEnd_toEndOf="@id/temp"
+                    app:layout_constraintStart_toStartOf="@id/temp"
+                    app:layout_constraintTop_toBottomOf="@id/next_button_1">
+
+                    <TextView
+                        android:id="@+id/acc_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:fontFamily="@font/muli"
+                        android:text="Already have an Account? "
+                        android:textAlignment="textEnd"
+                        android:textColor="?attr/colorPrimary" />
+
+                    <TextView
+                        android:id="@+id/lgn_button_1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_toRightOf="@id/acc_text"
+                        android:background="#00000000"
+                        android:fontFamily="@font/muli_black"
+                        android:text="Login"
+                        android:textAlignment="textStart"
+                        android:textColor="?attr/colorPrimary" />
+
+                </RelativeLayout>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </LinearLayout>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:background="@drawable/home_nav_icon_bg"
+    android:elevation="5dp"
+    android:orientation="horizontal"
+    android:padding="10dp">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:padding="5dp"
+        android:id="@+id/patient_imgview"
+        android:layout_width="100dp"
+        android:layout_height="100dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/patient_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="25dp"
+                android:fontFamily="@font/muli_black"
+                android:text="Full Name"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:id="@+id/edit_patient_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:background="@android:color/transparent"
+                android:src="@drawable/ic_outline_eye"
+                app:tint="@color/logo_red" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/patient_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="E-Mail"
+            android:textSize="13sp"/>
+        <TextView
+            android:id="@+id/patient_phoneNo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Phone Number"
+            android:textSize="13sp"/>
+        <TextView
+            android:id="@+id/patient_dob"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Date of Birth"
+            android:textSize="13sp"/>
+        <TextView
+            android:id="@+id/patient_address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Address"
+            android:textSize="13sp"/>
+    </LinearLayout>
+</LinearLayout>
